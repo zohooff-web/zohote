@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoho Recruitment - Stage 3 Application</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="background"></div>
+
+<header>
+
+<div class="logo-section">
+
+<div class="logo-circle">
+Z
+</div>
+
+<div>
+<h2>ZOHO</h2>
+<p>Recruitment Portal</p>
+</div>
+
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="progress-card">
+
+<h3>Application Progress</h3>
+
+<div class="progress-bar">
+
+<div class="progress-fill"></div>
+
+</div>
+
+<div class="progress-text">
+
+<span>Stage 1</span>
+
+<span>Stage 2</span>
+
+<span class="active">Stage 3</span>
+
+</div>
+
+</div>
+
+<div class="form-card">
+
+<h1>Stage 3 Application Form</h1>
+
+<p class="subtitle">
+Please complete the following details to continue your recruitment process.
+</p>
+
+<form id="applicationForm">
+
+<div class="input-group">
+
+<label>Full Name</label>
+
+<input
+type="text"
+id="name"
+placeholder="Enter your full name"
+required>
+
+</div>
+
+<div class="two-column">
+
+<div class="input-group">
+
+<label>Age</label>
+
+<input
+type="number"
+id="age"
+placeholder="Age"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Father Name</label>
+
+<input
+type="text"
+id="father"
+placeholder="Father Name"
+required>
+
+</div>
+
+</div>
+
+<div class="input-group">
+
+<label>Email Address</label>
+
+<input
+type="email"
+id="email"
+placeholder="example@gmail.com"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Phone Number</label>
+
+<input
+type="tel"
+id="phone"
+maxlength="10"
+placeholder="10 Digit Mobile Number"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Full Address</label>
+
+<textarea
+id="address"
+rows="4"
+placeholder="Enter your complete address"
+required></textarea>
+
+</div>
+
+<div class="input-group">
+
+<label>Upload Resume (PDF Only)</label>
+
+<input
+type="file"
+id="resume"
+accept=".pdf"
+required>
+
+<small>Only PDF files are allowed.</small>
+
+</div>
+
+<div class="checkbox">
+
+<input
+type="checkbox"
+id="agree">
+
+<label for="agree">
+
+I hereby declare that the above information is true and correct.
+
+</label>
+
+</div>
+
+<button
+type="submit"
+class="submit-btn">
+
+Submit Application
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<div
+id="successBox"
+class="success-box">
+
+<div class="success-card">
+
+<div class="tick">
+
+✔
+
+</div>
+
+<h2>
+
+Application Submitted Successfully
+
+</h2>
+
+<p>
+
+Thank you for completing Stage 3.
+
+</p>
+
+<h3>
+
+Application ID
+
+</h3>
+
+<div id="applicationID">
+
+ZH2026-000000
+
+</div>
+
+<button type="button">
+Submit Another Response
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Zoho Corporation.
+All Rights Reserved.
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
